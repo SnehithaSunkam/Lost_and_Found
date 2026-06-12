@@ -1,94 +1,70 @@
-![Logo](https://user-images.githubusercontent.com/97614113/215878302-c47ee2ba-1b44-4fe9-8b98-20becadb6fa1.png)
+# Getting Started with Create React App
 
-# 🐾 Lost and Found Pets
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The main objective of this project is to create a user-friendly website that allows people to report lost or found pets in their area, and to search for matching reports in an effort to reunite pets with their owners.
+## Available Scripts
 
-## DIVERSION 2k23
+In the project directory, you can run:
 
-<a href="https://diversion.tech" alt="diversion2k23">![Diversion-logo](https://user-images.githubusercontent.com/97614113/215878759-401341b3-0f3e-4db3-b816-0c5e06af0fe2.png)</a>
-[**Click to Know More about Contributing through Diversion 2k23**](diversion2k23.md)
+### `npm start`
 
-## Tech Stack
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Frontend:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-  <a href="https://github.com/facebook/react">
-    <img alt="React" src="https://img.shields.io/badge/React-16.x-61DAFB.svg?style=flat&logo=react" height=25px>
-  </a> <br>
-  <a href="https://github.com/reduxjs/redux">
-    <img alt="Redux" src="https://img.shields.io/badge/Redux-4.0.x-764ABC.svg?style=flat&logo=redux" height=25px>
-  </a> <br>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-    <img alt="CSS" src="https://img.shields.io/badge/CSS-3-1572B6.svg?style=flat&logo=css3" height=25px>
-  </a> <br
-  <a href="https://github.com/css-modules/css-modules">
-    <img alt="CSS Modules" src="https://img.shields.io/badge/CSS%20Modules-v5.x-29b6f6.svg?style=flat&logo=css-modules" height=25px>
-  </a>
+### `npm test`
 
-### Backend:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  <a href="https://nodejs.org/">
-    <img alt="Node.js" src="https://img.shields.io/badge/Node.js-14.x-339933.svg?style=flat&logo=node.js" height=25px>
-  </a> <br>
-  <a href="https://expressjs.com/">
-    <img alt="Express" src="https://img.shields.io/badge/Express-4.x-19CEE6.svg?style=flat&logo=express" height=25px>
-  </a> <br>
-  <a href="https://www.mongodb.com/">
-    <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-4.x-47A248.svg?style=flat&logo=mongodb" height=25px>
-  </a>
+### `npm run build`
 
-## Setup
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Fork the poject
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Create a new branch
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Clone the project
+### `npm run eject`
 
-```bash
-  git clone https://github.com/chandel-aman/lost-and-found-pets.git
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- Go to the project directory
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-  cd frontend
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Install dependencies
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```bash
-  npm install
-```
+## Learn More
 
-- Start the server
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```bash
-  npm start
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Contributing
+### Code Splitting
 
-- Contributions are always welcome!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- See [`contributing.md`](https://github.com/chandel-aman/lost-and-found-pets/blob/master/contribution.md) for ways to get started.
+### Analyzing the Bundle Size
 
-- Please adhere to this project's `code of conduct`.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## UI
+### Making a Progressive Web App
 
-[Figma](https://www.figma.com/file/SnJ2Rzpy1KtgZfqePy3aka/lnfp?node-id=0%3A1&t=wI1uSeu3Z4SCGCJA-1)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Sign Up Page
+### Advanced Configuration
 
-![signup](https://user-images.githubusercontent.com/97614113/215884631-bda45061-e841-4ea0-9dee-fde6022a1bc3.png)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Sign In Page
+### Deployment
 
-![signin](https://user-images.githubusercontent.com/97614113/215885176-2c112f94-07fe-4ed7-b259-6ebbe7e9869a.png)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
-
-`Learn Markdown`
-`This document is the README.md`
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
